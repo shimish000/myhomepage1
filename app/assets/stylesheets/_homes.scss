@@ -128,7 +128,7 @@ html.enable-javascript.window-load .slider-sample{
   &__heading{
     text-align: center;
     display: block;
-    font-size: 1.5em;
+    font-size: 2.1em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
@@ -138,16 +138,103 @@ html.enable-javascript.window-load .slider-sample{
   }
 
   &__sub{
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     font-weight: normal;
   }
 }
+.lineup-content{
+  margin: 30px;
+  &__heading{
+    text-align: center;
+    display: block;
+    font-size: 2.1em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+  }
+
+  &__sub{
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+}
+figure{
+  display: flex;
+  height: 400px;
+  
+}
+.lineup_lists{
+  flex-wrap: wrap; /*折返し*/
+}
+.lineup_list{
+  width: calc(50% - 60px);
+  height: 100%;
+  margin: 5px 30px;
+  position: relative;
+  &__detail{
+    &__title{
+      position: absolute;
+      bottom: 30px;
+      right: 10px;
+      font-size: 42px;
+      color: white;
+      font-weight:bold;
+    }
+  }
+}
+.simplepic{
+  width: 100%;
+  height: 100%;
+  clip-path: circle(360px at center); 
+}
+
+  
+  
+
 
 .stbtube{
   margin-left: 72px;
 }
+.about_movie__btn{
+  margin: 51px 0;
+  text-align: center;
+}
+.sns_groups{
 
-
+  height: 200px;
+  &__container{
+    height: 100%;
+  }
+  &__heading{
+    margin-top: 21px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  &__lists{
+    height: 33px;
+    text-align: center;
+    margin-left: 570px;
+  }
+  &__list{
+    height: 45px;
+    
+  }
+}
+.fa-twitter{
+  
+}
+.fab{
+  
+  
+  font-size: 42px;
+  margin: 33px 10px;
+  color: black;
+}
 
 
 
