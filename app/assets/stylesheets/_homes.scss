@@ -219,25 +219,87 @@ figure{
     height: 33px;
     text-align: center;
     margin-left: 570px;
+    margin: 33px;
+    justify-content:center;
   }
   &__list{
     height: 45px;
-    
+    margin: 0 9px;
   }
 }
 .fa-twitter{
   
 }
 .fab{
-  
-  
   font-size: 42px;
-  margin: 33px 10px;
   color: black;
 }
 
 
 
+
+
 .footer{
-  height: 44px;
+
+  background-color: black;
+  overflow: scroll;
+  height: 420px;
+  &__container{
+    height: 100%;
+    padding: 111px;
+  }
+  &__nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+  &__primary{
+    display: flex;
+    width: 600px;
+    height: 100%;
+  }
+  &__navilist{
+    display: block;
+    width: 210px;
+    &__item{
+      // list-style-type: square;
+      position: relative;
+      width: 210px;
+      }
+    &__item::before{
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      width: 8px;
+      height: 1px;
+      background: #fff;
+    }
+  }
+  &__about{
+    font-weight: bold;
+    font-size: 21px;
+    text-decoration: none;
+    color: white;
+  }
+  &__secondary{
+    border-left:1px solid white;
+  }
+}
+
+
+.footeritem{
+  display: flex;
+  margin: 10px 0 0 18px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+.ff{
+  font-size: 33px;
+  color: white;
+  padding-top: 33px;
 }
