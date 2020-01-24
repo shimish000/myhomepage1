@@ -12,7 +12,7 @@
 //= require jquery
 //= require rails-ujs
 //= require activestorage
-//= require turbolinks
+
 //= require_tree .
 
 $(function(){
@@ -32,7 +32,7 @@ $(function(){
       dots: true,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 3000,
+      autoplaySpeed: 2700,
       fade: true,
       cssEase: 'linear'
       });
