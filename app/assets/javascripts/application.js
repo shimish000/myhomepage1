@@ -34,7 +34,7 @@ $(function(){
       autoplay: true,
       autoplaySpeed: 2700,
       fade: true,
-      cssEase: 'linear'
+      cssEase: 'linear',
       });
     $('.backtop').change(function() {
       slider.slick('setPosition');
@@ -42,3 +42,15 @@ $(function(){
   });
   
 });
+
+
+$(function(){
+  $('a img').hover(function(){
+    $(this).attr('src', $(this).attr('src').replace('_off', '_on'));
+      }, function(){
+        if (!$(this).hasClass('currentPage')) {
+          $(this).attr('src', $(this).attr('src').replace('_on', '_off'));
+          }
+     });
+});
+  
