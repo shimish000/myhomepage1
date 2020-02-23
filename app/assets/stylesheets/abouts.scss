@@ -1,0 +1,55 @@
+// Place all the styles related to the abouts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.top-container{
+  padding-top: 180px;
+  text-align: center;
+  
+}
+img{
+  height: 100%;
+  display: inline-block;
+}
+.about_logo{
+  
+  width: 720px;
+  height: 120px;
+  margin: 0 auto;
+}
+.about_copy{
+  margin-top: 126px;
+  width: 300px;
+  font-size:24px;
+  line-height: 100%;
+  font-weight: bold;
+  margin: 126px auto 0;
+}
+.about_txtarea{
+  margin-top: 60px;
+}
+.sentence{
+  font-family: "Noto Sans JP", Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  margin-top: 42px;
+  line-height: 2.4;
+}
+.breadcrumb{
+  width: 400px;
+  background-color: white !important;
+  display: flex;
+  margin: 12px;
+}
+.pastlist{
+  color: #212529;
+}
+.breadcrumb-item {
+  color: black !important;
+  font-weight: bold;
+  margin: 6px;
+}
+.active::before{
+  margin: 0 12px 0 6px;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+  content: '>' !important;
+}

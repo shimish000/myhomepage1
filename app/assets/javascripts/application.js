@@ -32,15 +32,21 @@ $(function(){
       dots: true,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 2700,
+      autoplaySpeed: 3000,
       fade: true,
       cssEase: 'linear',
       });
     $('.backtop').change(function() {
       slider.slick('setPosition');
    });
+
+   $slider.on('beforeChange',function(event, slick, currentSlide, nextSlide){
+    if(nextSlide > 0 ) {
+      $slider.slick('slickSetOption', 'autoplaySpeed', 8000, true)
+    }
   });
-  
+    
+  });  
 });
 
 
