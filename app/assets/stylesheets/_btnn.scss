@@ -1,39 +1,38 @@
 .btn {
-  // float: right;
-  display: inline-block;           /* 改行なしのブロック要素 */
-  position: relative;              /* 相対位置指定 */
-  width: 160px;                    /* 横幅 */
-  height: 60px;                    /* 高さ */
-  text-align: center;              /* 水平方向は中央揃え */
-  line-height: 48px;               /* 行の高さ */
+  display: inline-block;           
+  position: relative;              
+  width: 160px;                    
+  height: 60px;                    
+  text-align: center;              
+  line-height: 48px;               
 }
 .btn span {
-  display: block;                  /* ブロック要素 */
-  position: absolute;              /* 親要素の左上を基準位置 */
+  display: block;                 
+  position: absolute;              
   text-align: center;
-  width: 100px;                     /* 横幅 */
-  height: 50px;                    /* 高さ */
-  border: 2px solid #333;          /* 罫線 */
-  transform-style: preserve-3d;    /* 重なりを3Dで表示 */
-  transition: 0.5s;   /* 変化時間 */
+  width: 100px;                     
+  height: 50px;                   
+  border: 2px solid #333;          
+  transform-style: preserve-3d;    
+  transition: 0.5s;   
 }
 .btn span:nth-child(1) {
-  background-color: #ffffff;   /* Buttonボタンの色 */
-  color: #000000;          /* Buttonの文字の色 */
-  transform: rotateX(0deg);        /* 横軸の回転なし */
-  transform-origin: 0 50%  -30px;  /* transformの起点 */
+  background-color: #ffffff;   
+  color: #000000;          
+  transform: rotateX(0deg);        
+  transform-origin: 0 50%  -30px;  
 }
 .btn span:nth-child(2) {
-  background-color: #000000;   /* Clickボタンの色 */
-  color: #ffffff;          /* Clickの文字の色 */
-  transform: rotateX(90deg);       /* 横軸で90度回転 */
-  transform-origin: 0 50%  -30px;  /* transformの起点 */
+  background-color: #000000;   
+  color: #ffffff;         
+  transform: rotateX(90deg);      
+  transform-origin: 0 50%  -30px; 
 }
 .btn:hover span:nth-child(1) {
-  transform: rotateX(-90deg);      /* 横軸で前方に90度回転 */
+  transform: rotateX(-90deg);      
 }
 .btn:hover span:nth-child(2) {
-  transform: rotateX(0deg);        /* 横軸の回転なし */
+  transform: rotateX(0deg);        
 }
 
 
@@ -95,21 +94,20 @@
   position: absolute;
   right: 0;
   display       : inline-block;
-  font-size     : 18pt;        /* 文字サイズ */
-  text-align    : center;      /* 文字位置   */
-  cursor        : pointer;     /* カーソル   */
-  padding       : 9px 9px;   /* 余白       */
-  color         : black;     /* 背景色     */
-  background    : #ffffff;     /* 文字色     */
-  line-height   : 1em;         /* 1行の高さ  */
-  transition    : .3s;         /* なめらか変化 */
+  font-size     : 18pt;        
+  text-align    : center;      
+  cursor        : pointer;    
+  padding       : 9px 9px;   
+  color         : black;     
+  background    : #ffffff;    
+  line-height   : 1em;         
+  transition    : .3s;        
   border: 3px solid #666666;
-  // box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
-  // border        : 2px solid #000066;    /* 枠の指定 */
+  
 }
 .buttonnn:hover {
-  box-shadow    : none;        /* カーソル時の影消去 */
+  box-shadow    : none;        
   
-  background    : #666666;     /* 背景色     */
-  color         : #ffffff;     /* 文字色     */
+  background    : #666666;     
+  color         : #ffffff;    
 }
