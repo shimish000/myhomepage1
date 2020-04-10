@@ -1,10 +1,21 @@
 *{
   box-sizing: border-box;
 }
-.wrapper{
-  padding-bottom: 420px;
-  position: relative;
+
+html{ 
+  height: 3090px;
+  width: 100%;
 }
+
+body{ 
+  height: 100%;
+  width: 100%;
+}
+.wrapper{
+  height: 100%;
+  width: 100%;
+}
+
 ul{
   display: flex;
   

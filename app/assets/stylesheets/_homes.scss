@@ -10,15 +10,12 @@
 
 
 .content_container{
-  // overflow: scroll;
-  height: calc(100vh - 80px);
-  // position: relative;
+  height: calc(100% - 80px);
+  position: relative;
 }
 .main-container{
   width: 100%;
-  height: calc(100vh - 80px);
-  overflow: scroll;
-  // z-index: 2;
+  height: calc(100% - 80px);
 }
 .slider{
   margin: 0 auto;
