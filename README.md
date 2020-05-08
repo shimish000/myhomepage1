@@ -1,21 +1,18 @@
-#myhomepage1
+# myhomepage1
+コードを習いたての自分がZAVASのサイトを参考にホームページを作る練習をした作品。
  
-# DEMO
+## DEMO
  
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+
  
-# Features
+## Features
  
-"hoge"のセールスポイントや差別化などを説明する
+sliderを使ったり、cssで画像やボタンをhoverした時などの変化を付け加えたりした。
  
-# Requirement
+## Requirement
+
  
-"hoge"を動かすのに必要なライブラリなどを列挙する
- 
-* huga 3.5.2
-* hogehuga 1.0.2
- 
-# Installation
+## Installation
  
 Requirementで列挙したライブラリなどのインストール方法を説明する
  
@@ -23,7 +20,7 @@ Requirementで列挙したライブラリなどのインストール方法を説
 pip install huga_package
 ```
  
-# Usage
+## Usage
  
 DEMOの実行方法など、"hoge"の基本的な使い方を説明する
  
@@ -33,23 +30,13 @@ cd examples
 python demo.py
 ```
  
-# Note
+## Note
  
 注意点などがあれば書く
  
-# Author
+## Author
  
-作成情報を列挙する
- 
-* 作成者
-* 所属
-* E-mail
- 
-# License
-ライセンスを明示する
- 
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
- 
-社内向けなら社外秘であることを明示してる
- 
-"hoge" is Confidential.
+* ShotaShimizu　
+* テックキャンプ
+
+
