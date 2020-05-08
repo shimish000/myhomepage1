@@ -190,7 +190,6 @@ figure{
   position: absolute;
   bottom: 0;
   background-color: black;
-  // overflow: scroll;
   height: 420px;
   &__container{
     height: 100%;
@@ -204,7 +203,7 @@ figure{
   }
   &__primary{
     display: flex;
-    width: 600px;
+    width: 50%;
     height: 100%;
   }
   &__navilist{
@@ -235,6 +234,7 @@ figure{
   }
   &__secondary{
     border-left:1px solid white;
+    width: 50%;
   }
 }
 

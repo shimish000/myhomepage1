@@ -37,10 +37,23 @@ ul{
   display: flex;
   transition: transform 0.35s;
   z-index: 3;
+  &__content{
+    width: 270px;
+  }
+  &__nav{
+    display: flex;
+    padding: 30px 150px 0 90px;
+    height:100%;
+    width: 100%;
+    position: relative;
+  }
+  &__logo{
+    width: 270px;
+  }
 }
 
 a{
-  text-decoration: underline;
+  text-decoration: none;
 }
   
 span{
@@ -52,13 +65,7 @@ span{
   border-radius: 25px;
   text-align: center;
 }
-.header__nav{
-  display: flex;
-  padding: 13px 24px 0 0;
-  height:100%;
-  width: 100%;
-  position: relative;
-}
+
 .right-btn{
   width: 100px;
   position: absolute;
@@ -70,9 +77,7 @@ span{
   line-height: 2.8;
 }
 
-.header__content{
-  width: 210px;
-}
+
 .header-menu{
   position: absolute;
   top: 0;
@@ -85,8 +90,16 @@ span{
   padding: 18px 50px 0 400px;
 }
 .imgtop{
-  width: 210px;
+  width: 240px;
   height: 80px;
   margin-left: 30px;
 }
 
+@media screen and (max-width: 970px){
+  .headder-ul {
+    display:none;
+  }
+  .buttonnn{
+    display: none !important;
+  } 
+}
