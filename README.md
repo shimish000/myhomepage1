@@ -2,7 +2,7 @@
 コードを習いたての自分がZAVASのサイトを参考にホームページを作る練習をした作品。
  
 ## DEMO
- 
+ https://gyazo.com/20fdedd6252e3c18687dc40d2d2a1259
 
  
 ## Features
